@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import styles from './main.module.css';
 import Title from "@/components/title/title";
@@ -7,7 +7,28 @@ import Image from "next/image";
 import classNames from "classnames";
 
 const Main = () => {
-    const {isMobile} = useResponsive();
+    const [isMobile, setIsMobile] = useState(false);
+
+    // add event listener
+    const Setup = (): void => {
+        window?.addEventListener('resize', () => setIsMobile(window.innerWidth <= 1200), false);
+    };
+
+    const Cleanup = (): void => {
+        window?.removeEventListener('resize', () => setIsMobile(window.innerWidth <= 1200), false);
+    };
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setIsMobile(window.innerWidth <= 1200);
+        }
+
+        Setup();
+
+        return () => {
+            Cleanup();
+        }
+    }, []);
 
     return (
         <div className={classNames(styles.wrapper, 'h-screen overflow-hidden relative')}>
