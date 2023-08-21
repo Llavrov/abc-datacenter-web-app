@@ -15,8 +15,6 @@ export const Layout = ({children}: PropsWithChildren) =>
                 content="Многопрофильная студия предоставляет широкий спектр услуг, начиная от создания технического задания и функциональных требований до разработки и продвижения продукта."
             />
             <meta name="keywords" content="Веб-дизайн, Разработка сайтов, UI/UX, Фронтенд-разработка" />
-
-            <link rel="icon" href="/logo.svg" />
         </Head>
 
         <main className="flex min-h-screen flex-col items-center">
