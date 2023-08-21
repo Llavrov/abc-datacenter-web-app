@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 
 import styles from './main.module.css';
 import Title from "@/components/title/title";
-import useResponsive from "@/hooks/useResponsive";
 import Image from "next/image";
 import classNames from "classnames";
 
