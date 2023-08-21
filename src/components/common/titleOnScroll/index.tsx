@@ -1,8 +1,6 @@
 import styles from "./styles.module.css";
-import {motion, useScroll, Variants} from "framer-motion";
+import {motion, useScroll} from "framer-motion";
 import {useEffect, useRef, useState} from "react";
-
-const hue = (h: number) => `hsl(${h}, 100%, 50%)`;
 
 function TitleOnScroll() {
     const utpRef = useRef(null);
