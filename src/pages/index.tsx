@@ -24,7 +24,7 @@ export const Layout = ({children}: PropsWithChildren) =>
 
 const Index: NextPage = () => {
     return (
-        <Home/>
+        <Home />
     );
 };
 
