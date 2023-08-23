@@ -45,10 +45,10 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="flex gap-4 w-full pt-[50px] ml-5 flex-wrap">
-                        <div className="flex justify-center bg-primary rounded-3 text-white p-[22px] w-[300px] minn:w-[calc(100%-40px)] box-border">
+                        <div className="flex cursor-pointer justify-center bg-primary rounded-3 text-white p-[22px] w-[300px] minn:w-[calc(100%-40px)] box-border">
                             Узнать больше
                         </div>
-                        <div className="flex justify-center border border-white border-solid rounded-3 text-white p-[22px] bg-black w-[300px] minn:w-[calc(100%-40px)] box-border">
+                        <div className="flex cursor-pointer justify-center border border-white border-solid rounded-3 text-white p-[22px] bg-black w-[300px] minn:w-[calc(100%-40px)] box-border">
                             Связаться с нами
                         </div>
                     </div>

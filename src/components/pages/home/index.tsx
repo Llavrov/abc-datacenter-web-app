@@ -34,9 +34,6 @@ export default function ABCHome() {
             <div className="overflow-x-hidden bg-orangeLight flex items-center gap-10 flex-col relative w-full">
                 <div className="flex justify-center max-w-[1200px] flex-col">
                     <div className="relative w-full h-[200px] py-[50px]">
-                        <div className="absolute left-[-60px] md:left-[-35px]">
-                            <Image src={'/figure_01.svg'} alt={'figure'} width={isMobile ? 120 : 196} height={isMobile ? 124 : 196} />
-                        </div>
                         <p className="text-heading-48 md:text-heading-xm md:pl-5 text-white absolute z-10 pt-13 md:pt-3">О нас</p>
                     </div>
                     <h2 className="w-full px-5 text-white text-heading-large lg_min:text-heading-xxl md:text-heading-xl pb-[50px]">
@@ -55,86 +52,86 @@ export default function ABCHome() {
                         <div className="flex h-[342px] w-[33%] object-cover rounded-3 overflow-hidden content:hidden">
                             <Image className="w-full h-full object-cover" src={'/insert_01.png'} alt={'insert'} width={1024} height={792} />
                         </div>
-                        <div className="relative flex flex-col gap-3 w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] content:flex-wrap">
+                        <div className="relative flex-col gap-3 w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] content:flex-wrap">
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
-                                    Количество строек
-                                </p>
-                                <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                    198
+                                    Количество стоек
+                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                        198
+                                    </span>
                                 </p>
                             </div>
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                     Максимальная мощность эл. Установок
-                                </p>
-                                <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                    2,5 МВт
+                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                        2,5 МВт
+                                    </span>
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-3 w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] content:flex-wrap">
+                        <div className="flex-col gap-3 w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] content:flex-wrap">
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                     Заявленный уровень надежности
-                                </p>
-                                <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                    TIER III
+                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                        TIER III
+                                    </span>
                                 </p>
                             </div>
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                     Общая площадь
-                                </p>
-                                <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                    809,5 м2
+                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                        809,5 м2
+                                    </span>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="w-full flex gap-3 pt-3 md:px-5 box-border content:flex-wrap content:justify-center">
-                        <div className="w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
+                        <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 w-[400px] md:text-heading-s md:w-full">
-                                Возможность ремонта
+                                Возможность размещения ремонта
                                 оборудования без остановки
-                            </p>
-                            <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                ЦОД
+                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    ЦОД
+                                </span>
                             </p>
                         </div>
-                        <div className="w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
+                        <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 Резервирование активного оборудования охлаждения
-                            </p>
-                            <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                N + 1
+                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    N + 1
+                                </span>
                             </p>
                         </div>
-                        <div className="w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
+                        <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 2 энерговвода
-                            </p>
-                            <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                с ИБП
+                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    с ИБП
+                                </span>
                             </p>
                         </div>
                     </div>
                     <div className="w-full flex gap-3 pt-3 md:px-5 box-border content:flex-wrap content:justify-center">
-                        <div className="w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
-                            <p className="text-heading-m m-0 w-[400px] md:text-heading-s md:w-full">
-                                ЗДГУ – запас топлива 360 мин.
+                        <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
+                            <p className="text-heading-m m-0 md:text-heading-s md:w-full">
+                                ДГУ – запас топлива 360 мин.
                                 с обеспечением доставки
-                            </p>
-                            <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                с АЗС
+                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    с АЗС
+                                </span>
                             </p>
                         </div>
-                        <div className="w-[33%] md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
+                        <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 Операторов телеком подключения
-                            </p>
-                            <p className="absolute bottom-5 text-64 text-primary md:text-48_bold m-0">
-                                {'>'} 4
+                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    {'>'} 4
+                                </span>
                             </p>
                         </div>
                         <div className="w-[33%] md:w-full h-[165px] bg-card rounded-3 overflow-hidden minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px]">

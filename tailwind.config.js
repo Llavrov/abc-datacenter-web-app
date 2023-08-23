@@ -9,7 +9,7 @@ const config = {
       colors: {
         primary: '#BCBCBC',
         secondary: '#C0C0C0',
-        orange: 'rgba(255, 100, 51, 1)',
+        orange: '#ED8036',
       },
       backgroundPosition: {
         top_bg: 'top -60px',
@@ -29,7 +29,7 @@ const config = {
         card: '#FAFBFF',
       },
       backgroundImage: {
-        orangeLight: 'linear-gradient(71.19deg, #EA6931 8.02%, #EE903A 64.54%)',
+        orangeLight: 'linear-gradient(99.56deg, #E96430 6.61%, #FB973D 88.98%)',
       },
       borderColor: {
         orange: 'rgba(255, 100, 51, 1)',
