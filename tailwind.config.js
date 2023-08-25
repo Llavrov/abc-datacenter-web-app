@@ -29,7 +29,7 @@ const config = {
         card: '#FAFBFF',
       },
       backgroundImage: {
-        orangeLight: 'linear-gradient(99.56deg, #E96430 6.61%, #FB973D 88.98%)',
+        orangeLight: 'linear-gradient(90deg, #EA6A31 0%, #ED8B38 100%)',
       },
       borderColor: {
         orange: 'rgba(255, 100, 51, 1)',
@@ -42,6 +42,7 @@ const config = {
         'heading-ss-bold': ['18px', { fontWeight: '500' }],
         'heading-s': ['20px', { fontWeight: '600', lineHeight: '24px' }],
         'heading-m': ['24px', { fontWeight: '600', lineHeight: '26px' }],
+        'heading-m-regular': ['24px', { fontWeight: '300', lineHeight: '26px' }],
         'heading-xm': ['28px', { fontWeight: '600' }],
         'rem-heading-xm': ['1.5rem', { fontWeight: '600' }],
         'rem-heading-s': ['1.2rem', { fontWeight: '600' }],

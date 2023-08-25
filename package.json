@@ -24,6 +24,7 @@
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.7",
     "framer-motion": "^10.12.22",
+    "lottie-web": "^5.12.2",
     "mui-tel-input": "^3.2.2",
     "next": "13.4.7",
     "postcss": "8.4.24",
