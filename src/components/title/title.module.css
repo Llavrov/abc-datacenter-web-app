@@ -32,7 +32,6 @@
     transition-duration: 1s;
     animation-duration: 1s;
     white-space: nowrap;
-    color: white;
     line-height: 130px;
 }
 
@@ -43,7 +42,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 42px;
-    background: black;
+    /*background: black;*/
 }
 
 .top_line_mobile {

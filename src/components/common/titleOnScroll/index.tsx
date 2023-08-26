@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import {motion, useScroll} from "framer-motion";
 import {useEffect, useRef, useState} from "react";
 
-function TitleOnScroll() {
+function TitleOnScroll({children}: {children: React.ReactElement}) {
     const utpRef = useRef(null);
     const { scrollY } = useScroll();
     const [opacity, setOpacity] = useState(0);
@@ -16,8 +16,6 @@ function TitleOnScroll() {
 
             if (scrollProgress > -1.5) {
                 setOpacity(1);
-            } else {
-                setOpacity(0);
             }
         };
 
@@ -32,8 +30,8 @@ function TitleOnScroll() {
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.8 }}
         >
-            <motion.div className={styles.card} style={{opacity: opacity,}}>
-                Действуй
+            <motion.div className={styles.card} style={{opacity: opacity}}>
+                {children}
             </motion.div>
         </motion.div>
     );

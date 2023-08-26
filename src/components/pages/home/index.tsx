@@ -1,6 +1,8 @@
 import Main from "@/components/pages/home/main/main";
 import Image from "next/image";
 import {useEffect, useState} from "react";
+import Title from "@/components/title/title";
+import TitleOnScroll from "@/components/common/titleOnScroll";
 
 export default function ABCHome() {
     const [isMobile, setIsMobile] = useState(false);
@@ -36,12 +38,14 @@ export default function ABCHome() {
                     <div className="relative w-full h-[130px] md:h-[80px]">
                         <p className="text-heading-48 md:text-heading-xm md:pl-5 text-white pt-10 md:pt-3">О нас</p>
                     </div>
-                    <h2 className="w-full text-white text-heading-large lg_min:text-heading-xxl md:text-heading-xl md:pl-5 pb-[50px] box-border">
-                        Мы создаём современный независимый коммерческий центр обработки данных
-                        в Новосибирске.
-                    </h2>
+                    <TitleOnScroll>
+                        <h2 className="w-full text-white text-heading-large lg_min:text-heading-xxl md:text-heading-xl md:pl-5 pb-[50px] box-border">
+                            Мы создаём современный независимый коммерческий центр обработки данных
+                            в Новосибирске.
+                        </h2>
+                    </TitleOnScroll>
                 </div>
-                <Image className="h-full max-h-[320px] w-full max-w-[1050px] object-contain absolute right-0 top-[100px]" src={'/map.png'} alt={'map of russia'} width={1820} height={1195} />
+                <Image className="h-full max-h-[720px] w-full max-w-[1050px] object-contain absolute right-0 top-[100px]" src={'/map.png'} alt={'map of russia'} width={1820} height={1195} />
             </div>
 
             <div className="bg-white flex items-center gap-10 flex-col relative w-full">
@@ -56,8 +60,8 @@ export default function ABCHome() {
                         <div className="relative flex-col gap-3 w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] content:flex-wrap">
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
-                                    Количество стоек
-                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    Количество it-стоек
+                                    <span className="text-heading-m text-orange m-0 ml-2">
                                         198
                                     </span>
                                 </p>
@@ -65,7 +69,7 @@ export default function ABCHome() {
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                     Максимальная мощность эл. Установок
-                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    <span className="text-heading-m text-orange m-0 ml-2">
                                         2,5 МВт
                                     </span>
                                 </p>
@@ -75,7 +79,7 @@ export default function ABCHome() {
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                     Заявленный уровень надежности
-                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    <span className="text-heading-m text-orange m-0 ml-2">
                                         TIER III
                                     </span>
                                 </p>
@@ -83,7 +87,7 @@ export default function ABCHome() {
                             <div className="w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] relative p-5 box-border h-[165px] bg-card rounded-3 overflow-hidden">
                                 <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                     Общая площадь
-                                    <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                    <span className="text-heading-m text-orange m-0 ml-2">
                                         809,5 м2
                                     </span>
                                 </p>
@@ -95,7 +99,7 @@ export default function ABCHome() {
                             <p className="text-heading-m m-0 w-[400px] md:text-heading-s md:w-full">
                                 Возможность размещения ремонта
                                 оборудования без остановки
-                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                <span className="text-heading-m text-orange m-0 ml-2">
                                     ЦОД
                                 </span>
                             </p>
@@ -103,7 +107,7 @@ export default function ABCHome() {
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 Резервирование активного оборудования охлаждения
-                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                <span className="text-heading-m text-orange m-0 ml-2">
                                     N + 1
                                 </span>
                             </p>
@@ -111,7 +115,7 @@ export default function ABCHome() {
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 2 энерговвода
-                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                <span className="text-heading-m text-orange m-0 ml-2">
                                     с ИБП
                                 </span>
                             </p>
@@ -122,7 +126,7 @@ export default function ABCHome() {
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 ДГУ – запас топлива 360 мин.
                                 с обеспечением доставки
-                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                <span className="text-heading-m text-orange m-0 ml-2">
                                     с АЗС
                                 </span>
                             </p>
@@ -130,7 +134,7 @@ export default function ABCHome() {
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 Операторов телеком подключения
-                                <span className="text-heading-m text-orange md:text-48_bold m-0 ml-2">
+                                <span className="text-heading-m text-orange m-0 ml-2">
                                     {'>'} 4
                                 </span>
                             </p>
@@ -143,21 +147,31 @@ export default function ABCHome() {
             </div>
 
             <div className="bg-white flex items-center gap-10 flex-col relative w-full">
+                <Image
+                    className="h-full max-h-[720px] w-full max-w-[1200px] object-contain"
+                    src={'/middle_line.svg'}
+                    alt={'map of russia'}
+                    width={1440}
+                    height={300}
+                />
+            </div>
+
+            <div className="bg-white flex items-center gap-10 flex-col relative w-full">
                 <div className="w-full flex justify-center max-w-[1200px] flex-col">
-                    <p className="w-full text-heading-48 md:px-5 box-border md:text-heading-xm pt-6">
+                    <p className="w-full text-heading-48 md:px-5 box-border md:text-heading-xm whitespace-nowrap pt-6">
                         Что мы вам предлагаем?
                     </p>
-                    <div className="flex flex-row gap-3">
+                    <div className="flex flex-row gap-3 md:flex-col">
                         <div className="flex flex-col gap-3 w-full md:px-5 box-border">
-                            <div className="flex gap-3 max-w-[810px] w-full">
-                                <div className="w-1/2 h-[220px] md:h-[200px] bg-card rounded-3 overflow-hidden">
+                            <div className="flex md:flex-col gap-3 max-w-[810px] w-full">
+                                <div className="w-1/2 md:w-full h-[220px] md:h-[120px] bg-card rounded-3 overflow-hidden">
                                     <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
                                         <p className="text-heading-l m-0 md:text-heading-s md:w-full">
                                             Colocation
                                         </p>
                                     </div>
                                 </div>
-                                <div className="w-full max-w-[420px] h-[220px] md:h-[400px] bg-card rounded-3 overflow-hidden">
+                                <div className="w-full max-w-[420px] h-[220px] md:h-[200px] bg-card rounded-3 overflow-hidden">
                                     <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
                                         <p className="text-heading-l m-0 md:text-heading-s md:w-full whitespace-nowrap">
                                             Услуга по Соединению
@@ -183,8 +197,8 @@ export default function ABCHome() {
                             </div>
                         </div>
 
-                        <div className="min-h-full md:h-[400px] bg-card rounded-3 overflow-hidden">
-                            <Image className="w-full h-full object-cover" src={'/center.jpeg'} alt={'insert'} width={1024} height={792} />
+                        <div className="min-h-full md:h-[200px] md:px-5 box-border bg-card rounded-3 overflow-hidden">
+                            <Image className="w-full h-full object-cover md:rounded-3" src={'/center.jpeg'} alt={'insert'} width={1024} height={792} />
                         </div>
                     </div>
                 </div>
@@ -195,13 +209,15 @@ export default function ABCHome() {
                     <p className="w-full px-5 text-heading-48 md:text-heading-xm pt-6">
                         Запуск
                     </p>
-                    <div className="flex flex-col p-5 box-border gap-3 w-full bg-card h-[360px] lg_min:h-[240px] md:h-[180px] rounded-3">
-                        <p className="text-heading-tall lg_min:text-heading-large md_min:text-64 sm:text-heading-l m-0 text-secondary">
-                            Декабрь 2023
-                        </p>
-                        <p className="w-full text-64 lg_min:text-48 md:text-heading-l sm:text-heading-m m-0 text-right">
-                            <span className="text-heading-tall lg_min:text-heading-large md_min:text-64 sm:text-heading-l">70</span> свободных It-стоек
-                        </p>
+                    <div className="flex flex-col p-10 box-border gap-3 w-full bg-card h-[360px] lg_min:h-[240px] md:h-[180px] rounded-3">
+                        <Title text={'Декабрь 2023'} delay={0} fontSize={120} mobileFontSize={36} />
+                        <div className="flex gap-4 md:gap-2 w-full pt-6 md:pt-2 justify-end">
+                            <Title text={'70'} delay={0.6} fontSize={48} mobileFontSize={18} />
+                            <Title text={'доступных'} delay={0.8} fontSize={48} mobileFontSize={18} />
+                            <Title text={'к'} delay={0.95} fontSize={48} mobileFontSize={18} />
+                            <Title text={'аренде'} delay={1.25} fontSize={48} mobileFontSize={18} />
+                            <Title text={'It-стоек'} delay={1.5} fontSize={48} mobileFontSize={18} />
+                        </div>
                     </div>
                 </div>
             </div>

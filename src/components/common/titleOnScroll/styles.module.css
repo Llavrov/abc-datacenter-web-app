@@ -13,10 +13,8 @@
 
     font-size: var(--extra-font-size);
     font-weight: 800;
-    text-transform: uppercase;
     transition-duration: 1s;
     animation-duration: 1s;
-    white-space: nowrap;
     line-height: 130px;
 }
 
