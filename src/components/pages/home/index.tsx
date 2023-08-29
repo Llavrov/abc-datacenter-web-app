@@ -154,50 +154,53 @@ export default function ABCHome() {
                     </p>
                     <div className="flex flex-row gap-3 md:flex-col">
                         <div className="flex flex-col gap-3 w-full md:px-5 box-border">
-                            <div className="flex md:flex-col gap-3 max-w-[810px] w-full">
-                                <div className="w-1/2 md:w-full h-[220px] md:h-[120px] bg-card rounded-3 overflow-hidden">
-                                    <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
-                                        <p className="text-heading-l m-0 md:text-heading-s md:w-full">
-                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
-                                            </svg> Colocation
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="w-full max-w-[420px] h-[220px] md:h-[200px] bg-card rounded-3 overflow-hidden">
-                                    <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-3 relative bg-card rounded-6">
-                                        <p className="text-heading-l m-0 md:text-heading-s md:w-full">
-                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
-                                            </svg>
-
-                                            Услуга по Соединению между операторами связи и конечными пользователями
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                             <div className="flex flex-col gap-3 w-full max-w-[810px]">
-                                <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
-                                    <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                <div className="flex flex-col gap-6 md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[260px] p-8 relative bg-card rounded-6">
+                                    <p className="text-heading-m m-0 md:text-heading-s md:w-full">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                        </svg>
+
+                                        Colocation
+                                    </p>
+                                    <p className="text-heading-m m-0 md:text-heading-s md:w-full">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                        </svg>
+
+                                        Услугу по Соединению между операторами связи и конечными пользователями
+                                    </p>
+                                    <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
                                         </svg>
 
                                         Сервис “удаленные руки”
                                     </p>
-                                    <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                </div>
+                            </div>
+                            <div className="flex flex-col gap-3 w-full max-w-[810px]">
+                                <div className="flex flex-col gap-6 md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[260px] p-8 relative bg-card rounded-6">
+                                    <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
                                         </svg>
 
                                         Предоставляем склад для вашего оборудования
                                     </p>
-                                    <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                    <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
                                         </svg>
 
                                         По запросу предоставим рабочие места для вашего персонала
+                                    </p>
+                                    <p className="text-heading-m m-0 md:text-heading-s md:w-full">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                        </svg>
+
+                                        Наша техническая поддержка работает 24/ 7 / 365
                                     </p>
                                 </div>
                             </div>

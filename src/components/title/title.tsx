@@ -36,7 +36,7 @@ const Title = ({ text, delay, fontSize, mobileFontSize }: { text: string, delay:
         const updateOpacity = () => {
             // @ts-ignore
             const distanceFromTop = utpRef?.current?.getBoundingClientRect()?.top + window.pageYOffset;
-            const scrollRange = [distanceFromTop, distanceFromTop + 400];
+            const scrollRange = [distanceFromTop, distanceFromTop + 700];
             const scrollProgress = (scrollY.get() - scrollRange[0]) / (scrollRange[1] - scrollRange[0]);
 
             if (scrollProgress > -1.5) {
