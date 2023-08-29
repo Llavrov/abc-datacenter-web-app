@@ -98,10 +98,7 @@ export default function ABCHome() {
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 w-[400px] md:text-heading-s md:w-full">
                                 Возможность размещения ремонта
-                                оборудования без остановки
-                                <span className="text-heading-m text-orange m-0 ml-2">
-                                    ЦОД
-                                </span>
+                                оборудования без остановки ЦОД
                             </p>
                         </div>
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
@@ -114,10 +111,7 @@ export default function ABCHome() {
                         </div>
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
-                                2 энерговвода
-                                <span className="text-heading-m text-orange m-0 ml-2">
-                                    с ИБП
-                                </span>
+                                2 энерговвода с ИБП
                             </p>
                         </div>
                     </div>
@@ -125,10 +119,7 @@ export default function ABCHome() {
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 ДГУ – запас топлива 360 мин.
-                                с обеспечением доставки
-                                <span className="text-heading-m text-orange m-0 ml-2">
-                                    с АЗС
-                                </span>
+                                с обеспечением доставки с АЗС
                             </p>
                         </div>
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
@@ -167,17 +158,20 @@ export default function ABCHome() {
                                 <div className="w-1/2 md:w-full h-[220px] md:h-[120px] bg-card rounded-3 overflow-hidden">
                                     <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
                                         <p className="text-heading-l m-0 md:text-heading-s md:w-full">
-                                            Colocation
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                            </svg> Colocation
                                         </p>
                                     </div>
                                 </div>
                                 <div className="w-full max-w-[420px] h-[220px] md:h-[200px] bg-card rounded-3 overflow-hidden">
-                                    <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
-                                        <p className="text-heading-l m-0 md:text-heading-s md:w-full whitespace-nowrap">
-                                            Услуга по Соединению
-                                        </p>
-                                        <p className="text-heading-m-regular my-3 pt-4">
-                                            между операторами связи и конечными пользователями
+                                    <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-3 relative bg-card rounded-6">
+                                        <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                            </svg>
+
+                                            Услуга по Соединению между операторами связи и конечными пользователями
                                         </p>
                                     </div>
                                 </div>
@@ -185,12 +179,24 @@ export default function ABCHome() {
                             <div className="flex flex-col gap-3 w-full max-w-[810px]">
                                 <div className="flex flex-col md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[320px] p-8 relative bg-card rounded-6">
                                     <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                        </svg>
+
                                         Сервис “удаленные руки”
                                     </p>
-                                    <p className="text-heading-m-regular my-3 pt-4">
+                                    <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                        </svg>
+
                                         Предоставляем склад для вашего оборудования
                                     </p>
-                                    <p className="text-heading-m-regular my-3">
+                                    <p className="text-heading-l m-0 md:text-heading-s md:w-full">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
+                                        </svg>
+
                                         По запросу предоставим рабочие места для вашего персонала
                                     </p>
                                 </div>
