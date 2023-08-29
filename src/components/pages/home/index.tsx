@@ -218,14 +218,15 @@ export default function ABCHome() {
                     <p className="w-full px-5 text-heading-48 md:text-heading-xm pt-6">
                         Запуск
                     </p>
-                    <div className="flex flex-col p-10 box-border gap-3 w-full bg-card h-[360px] lg_min:h-[240px] md:h-[180px] rounded-3">
+                    <div className="flex flex-col p-10 box-border gap-3 w-full bg-card h-[360px] lg_min:h-[240px] md:h-[160px] rounded-3">
                         <Title text={'Декабрь 2023'} delay={0} fontSize={120} mobileFontSize={36} />
-                        <div className="flex gap-4 md:gap-2 w-full pt-6 md:pt-2 justify-end">
-                            <Title text={'70'} delay={0.6} fontSize={48} mobileFontSize={18} />
-                            <Title text={'доступных'} delay={0.8} fontSize={48} mobileFontSize={18} />
-                            <Title text={'к'} delay={0.95} fontSize={48} mobileFontSize={18} />
-                            <Title text={'аренде'} delay={1.25} fontSize={48} mobileFontSize={18} />
-                            <Title text={'It-стоек'} delay={1.5} fontSize={48} mobileFontSize={18} />
+                        <div className="flex gap-4 md:gap-2 w-full pt-6 md:pt-0 justify-end">
+                            <Title text={'осталось'} delay={0.6} fontSize={42} mobileFontSize={14} />
+                            <Title text={'70'} delay={0.6} fontSize={42} mobileFontSize={14} />
+                            <Title text={'доступных'} delay={0.8} fontSize={42} mobileFontSize={14} />
+                            <Title text={'к'} delay={0.95} fontSize={42} mobileFontSize={14} />
+                            <Title text={'аренде'} delay={1.25} fontSize={42} mobileFontSize={14} />
+                            <Title text={'It-стоек'} delay={1.5} fontSize={42} mobileFontSize={14} />
                         </div>
                     </div>
                 </div>
