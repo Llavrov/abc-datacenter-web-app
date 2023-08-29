@@ -104,7 +104,7 @@ export default function ABCHome() {
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                 Резервирование активного оборудования охлаждения
-                                <span className="text-heading-m text-orange m-0 ml-2">
+                                <span className="text-heading-m text-orange m-0 ml-2 whitespace-nowrap">
                                     N + 1
                                 </span>
                             </p>
@@ -155,7 +155,7 @@ export default function ABCHome() {
                     <div className="flex flex-row gap-3 md:flex-col">
                         <div className="flex flex-col gap-3 w-full md:px-5 box-border">
                             <div className="flex flex-col gap-3 w-full max-w-[810px]">
-                                <div className="flex flex-col gap-6 md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[260px] p-8 relative bg-card rounded-6">
+                                <div className="flex flex-col gap-6 md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[260px] md:h-[240px] p-8 md:p-4 relative bg-card rounded-6">
                                     <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
@@ -180,7 +180,7 @@ export default function ABCHome() {
                                 </div>
                             </div>
                             <div className="flex flex-col gap-3 w-full max-w-[810px]">
-                                <div className="flex flex-col gap-6 md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[260px] p-8 relative bg-card rounded-6">
+                                <div className="flex flex-col gap-6 md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[260px] md:h-[280px] p-8 md:p-4 relative bg-card rounded-6">
                                     <p className="text-heading-m m-0 md:text-heading-s md:w-full">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="11.5" cy="11.5" r="4.5" fill="black"/>
