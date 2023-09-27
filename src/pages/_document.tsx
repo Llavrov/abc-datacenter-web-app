@@ -28,8 +28,8 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
                 <meta name="keywords" content="ABC Data Center, обработка данных, датацентр Новосибирск, надежное размещение данных, высокая производительность, техническая поддержка"/>
                 <meta property="og:title" content="ABC Data center - Мы создаём современный независимый коммерческий центр обработки данных в Новосибирске."/>
                 <meta property="og:description" content="ABC Data Center - ведущий в области обработки данных в Новосибирске. Надежное размещение, высокая производительность, профессиональная поддержка."/>
-                <meta property="og:image" content="/logo.svg"/>
-                <link rel="icon" href="/logo.svg" />
+                <meta property="og:image" content="/logo.ico"/>
+                <link rel="icon" href="/favicon.ico" />
 
                 {/* Insertion point for client. This connects with createEmotionCache.ts */}
                 <meta name="emotion-insertion-point" content="" />

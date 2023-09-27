@@ -97,8 +97,7 @@ export default function ABCHome() {
                     <div className="w-full flex gap-3 pt-3 md:px-5 box-border content:flex-wrap content:justify-center">
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
                             <p className="text-heading-m m-0 w-[400px] md:text-heading-s md:w-full">
-                                Возможность размещения ремонта
-                                оборудования без остановки ЦОД
+                                Возможность ремонта оборудования без остановки ЦОД
                             </p>
                         </div>
                         <div className="w-[33%] flex md:w-full minn:min-w-[280px] content_min:min-w-[440px] content_min:max-w-[440px] h-[165px] p-5 relative bg-card rounded-3 overflow-hidden">
@@ -247,17 +246,17 @@ export default function ABCHome() {
                             <p className="text-heading-m m-0">
                                 Телефон
                             </p>
-                            <p className="text-heading-ss-bold text-primary m-0">
-                                +7(383) 363-51-54
-                            </p>
+                            <a className="text-heading-ss-bold text-primary m-0" href="tel:+73833635154">
+                                +7(383) 373-51-54
+                            </a>
                         </div>
                         <div className="w-[30%] md:w-full">
                             <p className="text-heading-m m-0">
                                 Почта
                             </p>
-                            <p className="text-heading-ss-bold text-primary m-0">
+                            <a className="text-heading-ss-bold text-primary m-0" href="mailto:info@abc-dc.ru">
                                 info@abc-dc.ru
-                            </p>
+                            </a>
                         </div>
                     </div>
                     <p className="w-full whitespace-nowrap text-220 lg_min:text-heading-tall md:text-heading-xxl m-0 text-secondary">
