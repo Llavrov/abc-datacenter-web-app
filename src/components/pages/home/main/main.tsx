@@ -55,14 +55,20 @@ const Main = () => {
 
                     <div className="flex gap-4 w-full pt-[50px] ml-5 flex-wrap">
                         <a href="#about-us" className="m-0 text-white no-underline w-[300px] minn:w-[calc(100%-40px)] ">
-                            <div className="flex cursor-pointer text-heading-ss justify-center bg-orangeLight rounded-3 text-white p-[22px] box-border">
+                            <div className="hover:opacity-90 flex cursor-pointer text-heading-ss justify-center bg-orangeLight rounded-3 text-white p-[22px] box-border">
                                 Узнать больше
                             </div>
                         </a>
 
                         <a href="#contacts" className="text-heading-ss m-0 text-white no-underline w-[300px] minn:w-[calc(100%-40px)] ">
-                            <div className="flex cursor-pointer justify-center border border-white border-solid rounded-3 text-white p-[22px] bg-black box-border">
+                            <div className="hover:opacity-90 flex cursor-pointer justify-center border border-white border-solid rounded-3 text-white p-[22px] bg-black box-border">
                                 Связаться с нами
+                            </div>
+                        </a>
+
+                        <a href="#decides" className="text-heading-ss m-0 text-white no-underline w-[300px] minn:w-[calc(100%-40px)] ">
+                            <div className="hover:opacity-90 flex cursor-pointer justify-center border border-white border-solid rounded-3 text-white p-[22px] bg-[#B6B4B9] box-border">
+                                Решения
                             </div>
                         </a>
                     </div>
